@@ -1,0 +1,110 @@
+body {background-image: url('D:/html/2.png');
+      background-repeat:repeat-y;
+      background-position:center;
+    height:200px}
+.header{
+    padding:30px;
+    text-align:center;
+    margin:0px 50px 20px 50px;
+    
+    background-color:rgba(255,192,203,0.8);
+    
+}
+.header h1{
+    font-size: 50px; 
+    font-family:"Comic Sans MS", cursive, sans-serif;  
+}
+.header p{
+    font-family: "YouYuan",幼圆;
+}
+.topnav{
+    
+    width:300px;
+    height:800px;
+    
+    margin:0px 0px 0px 50px;
+    background-color:rgba(255,250,240,0.8);
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    font-size:40px;
+    font-family: "YouYuan",幼圆;
+
+}
+.topnav a{
+    float:left;
+    display:block;
+    color:rgba(105,105,105,0.8);
+    padding:20px 25px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color:rgba(119,136,153,0.8);
+    color: black;
+  }
+.footer {
+    padding: 20px;
+    text-align: center;
+    background:rgba(255,250,240,0.8);
+    margin:20px 50px 20px 50px;
+  }
+.column1{
+    background-color: rgba(255,250,240,0.8);
+    margin:0px 50px 0px 0px;
+    width:1000px;
+    height:800px;
+    float:right;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+.selfphoto{
+    float:left;
+    margin:45px 30px 0px 30px;
+
+}
+.para1{
+    float:right;
+    width:600px;
+    height: 750px;
+    margin:auto;
+    font-size:30px;
+    text-align: left;
+    letter-spacing: 5px;
+    line-height:50px;
+    
+}
+.column2{
+    background-color: rgba(255,250,240,0.8);
+    margin:0px 50px 0px 0px;
+    width:1000px;
+    height:800px;
+    float:right;
+}
+.para2{
+    float:center;
+    width:800px;
+    height: 750px;
+    margin:auto;
+    font-size:30px;
+    text-align: left;
+    letter-spacing: 3px;
+    line-height:50px; 
+}
+.column3{
+    background-color: rgba(255,250,240,0.8);
+    margin:0px 50px 0px 0px;
+    width:1000px;
+    height:800px;
+    float:right;
+}
+.para3{
+    float:center;
+    width:800px;
+    height: 750px;
+    margin:auto;
+    font-size:30px;
+    text-align: left;
+    letter-spacing: 3px;
+    line-height:40px; 
+}
