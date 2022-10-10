@@ -1,7 +1,11 @@
 body {background-image: url('2.png');
-      background-repeat:repeat-y;
+      background-repeat:no-repeat;
       background-position:center;
-    height:200px}
+    height:200px;
+    width: 100%;
+    
+
+}
 .header{
     padding:30px;
     text-align:center;
@@ -17,14 +21,20 @@ body {background-image: url('2.png');
 .header p{
     font-family: "YouYuan",幼圆;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
 .topnav{
     
-    width:300px;
-    height:800px;
+    width:25%;
+    height:900px;
     
     margin:0px 0px 0px 50px;
     background-color:rgba(255,250,240,0.8);
-    font-family:"Comic Sans MS", cursive, sans-serif;
+    
     text-align: center;
     font-size:40px;
     font-family: "YouYuan",幼圆;
@@ -34,7 +44,7 @@ body {background-image: url('2.png');
     float:left;
     display:block;
     color:rgba(105,105,105,0.8);
-    padding:20px 25px;
+    padding:40px;
     text-decoration: none;
 }
 .topnav a:hover {
@@ -43,6 +53,7 @@ body {background-image: url('2.png');
   }
 .footer {
     padding: 20px;
+    width:100%;
     text-align: center;
     background:rgba(255,250,240,0.8);
     margin:20px 50px 20px 50px;
@@ -50,8 +61,8 @@ body {background-image: url('2.png');
 .column1{
     background-color: rgba(255,250,240,0.8);
     margin:0px 50px 0px 0px;
-    width:1000px;
-    height:800px;
+    width:65%;
+    height:900px;
     float:right;
 }
 h2{
@@ -64,8 +75,8 @@ h2{
 
 }
 .para1{
-    float:right;
-    width:600px;
+    float:left;
+    width:50%;
     height: 750px;
     margin:auto;
     font-size:30px;
@@ -77,13 +88,13 @@ h2{
 .column2{
     background-color: rgba(255,250,240,0.8);
     margin:0px 50px 0px 0px;
-    width:1000px;
-    height:800px;
+    width:65%;
+    height:900px;
     float:right;
 }
 .para2{
     float:center;
-    width:800px;
+    width:70%;
     height: 750px;
     margin:auto;
     font-size:30px;
@@ -94,13 +105,13 @@ h2{
 .column3{
     background-color: rgba(255,250,240,0.8);
     margin:0px 50px 0px 0px;
-    width:1000px;
-    height:800px;
+    width:65%;
+    height:900px;
     float:right;
 }
 .para3{
     float:center;
-    width:800px;
+    width:70%;
     height: 750px;
     margin:auto;
     font-size:30px;
